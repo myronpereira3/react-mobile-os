@@ -1,24 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Section from './component/Section';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+<Section name="Mobile Operating System" mobiles1="Android" mobile2='Blackberry' mobile3="iPhone" mobile4="Windows Phone"/>
+<Section name="Mobile Manufactures" mobiles1="Samsung" mobile2='HTC' mobile3="Micromax" mobile4="Apple"/>
+</div>
   );
 }
 
